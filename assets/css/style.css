@@ -7,7 +7,11 @@
 body {
     color: #256EC1;
     font-family: Helvetica, Arial, sans-serif;
+    background-color: #58A557;
 }
+
+
+/* HEADER */
 
 header  {
     padding: 25px 35px;
@@ -64,6 +68,10 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
+
+
+/* HERO */
+
 .hero {
     background-image: url(../images/Mandel_zoom_00_mandelbrot_set.jpeg);
     background-size: cover;
@@ -90,9 +98,13 @@ header nav ul li a:hover {
     color: #58A557;
 }
 
-.sect {
+
+
+/*about-me SECTION */
+
+.about-me-sect {
     
-    margin: 50px auto;
+    margin: 25px 5px;
     padding-bottom: 50px;
     width: 80%;
     display: flex;
@@ -100,31 +112,117 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #256EC1;
+    
 }
-.sect h2 {
+.about-me-sect h2 {
     color: #256EC1;
     font-size: 46px;
     flex: 1 30%;
 }
 
-.sect-content {
+.about-me-sect-content {
     flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    border-left: 1px solid #58A557;
+    border-left: 3px solid  #256EC1;
 }
 
-.sect-img {
+.about-me-sect-img {
     flex: 1 12%;
     margin-right: 20px;
     margin-left: 10px;
 }
 
-.sect-img img{
+.about-me-sect-img img{
     max-width: 100%;
 }
 
-.sect-text {
+.about-me-sect-text {
     flex: 12;
+}
+
+
+/* WORK SECTION */
+
+.work-sect {
+    margin: 25px 5px;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #256EC1;
+    
+}
+
+.work-sect h2 {
+    color: #256EC1;
+    font-size: 46px;
+    flex: 1 30%;
+}
+
+.work-content {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-left: 3px solid  #256EC1;
+}
+
+.work-element {
+    flex: 1 12%;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.work-img1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.work-img1 img{
+    max-width: 100%;
+}
+  
+ 
+.work-img-text {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+  /* CONTACT INFO SECTION */
+  .contact-info-sect {
+    margin: 25px 5px;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #256EC1;
+    
+}
+
+.contact-info-sect h2 {
+    color: #256EC1;
+    font-size: 46px;
+    flex: 1 30%;
+}
+
+.contact-info-content {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-left: 3px solid  #256EC1;
+}
+
+.contact-info-element {
+    flex: 1 12%;
+    margin-right: 20px;
+    margin-left: 10px;
 }
