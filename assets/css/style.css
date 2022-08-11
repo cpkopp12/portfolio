@@ -164,17 +164,26 @@ header nav ul li a:hover {
 }
 
 .work-content {
-    flex: 2 70%;
+    flex: 1 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     border-left: 3px solid  #256EC1;
 }
 
-.work-element {
+.work-element1 {
+    flex: 2 12%;
+    margin-right: 20px;
+    margin-left: 10px;
+    max-width: 100%;
+    border: 3px solid  #256EC1;
+}
+.work-element2 {
     flex: 1 12%;
     margin-right: 20px;
     margin-left: 10px;
+    max-width: 50%;
+    border: 3px solid  #256EC1;
 }
 
 .work-img1 {
@@ -183,16 +192,34 @@ header nav ul li a:hover {
     color: white;
   }
 
+.work-img2 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
 .work-img1 img{
+    max-width: 100%;
+}
+
+.work-img2 img{
     max-width: 100%;
 }
   
  
 .work-img-text {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 10%;
+    left: 10%;
+    color: #0A1137;
+    background-color: #256EC1;
   }
+
+
+
+
+
+
 
   /* CONTACT INFO SECTION */
   .contact-info-sect {
