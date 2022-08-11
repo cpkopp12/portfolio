@@ -103,7 +103,6 @@ header nav ul li a:hover {
 /*about-me SECTION */
 
 .about-me-sect {
-    
     margin: 25px 5px;
     padding-bottom: 50px;
     width: 80%;
@@ -114,6 +113,7 @@ header nav ul li a:hover {
     border-bottom: 1px solid #256EC1;
     
 }
+
 .about-me-sect h2 {
     color: #256EC1;
     font-size: 46px;
@@ -126,6 +126,10 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
     border-left: 3px solid  #256EC1;
+}
+
+.about-me-sect-content p {
+    color: #0A1137;
 }
 
 .about-me-sect-img {
@@ -186,23 +190,15 @@ header nav ul li a:hover {
     border: 3px solid  #256EC1;
 }
 
-.work-img1 {
+.work-img {
     position: relative;
     text-align: center;
     color: white;
   }
 
-.work-img2 {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
 
-.work-img1 img{
-    max-width: 100%;
-}
 
-.work-img2 img{
+.work-img img{
     max-width: 100%;
 }
   
@@ -211,7 +207,7 @@ header nav ul li a:hover {
     position: absolute;
     bottom: 10%;
     left: 10%;
-    color: #0A1137;
+    color: #E7FBE7;
     background-color: #256EC1;
   }
 
@@ -222,7 +218,7 @@ header nav ul li a:hover {
 
 
   /* CONTACT INFO SECTION */
-  .contact-info-sect {
+.contact-info-sect {
     margin: 25px 5px;
     padding-bottom: 50px;
     width: 80%;
