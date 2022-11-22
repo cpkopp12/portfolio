@@ -249,3 +249,11 @@ header nav ul li a:hover {
     margin-right: 20px;
     margin-left: 10px;
 }
+
+.bcolor {
+    color: #256EC1;
+}
+.borderBColor {
+    border-color: 3px #256EC1;
+    border-width: medium;
+}

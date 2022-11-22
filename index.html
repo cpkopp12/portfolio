@@ -8,6 +8,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cameron Kopp</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 
@@ -45,113 +47,126 @@
 
 
     <!-- About Me -->
-    <section id="about-me">
-        <div class="about-me-sect">
-            <h2>About Me</h2>
-            <div class="about-me-sect-content">
-                <div class="about-me-sect-img">
-                    <img src="./assets/images/Photo on 8-9-22 at 5.37 PM.jpg" alt="current photo">
-                </div>
-                <div class="about-me-sect-text">
-                    <p>
-                        My academic background includes an undergraduate degree in phyisics
-                        with a minor in mathematics, as well the completion of a post baccalaureate
-                        program in pre-medicine. After a few years of running our family owned restaunt 
-                        with my father, I am looking to transition into a career in software engineering.
-                        I feel that my well rounded science background has provided me with a problem solving ability
-                        that is well suited to this new field. I would also prefer a position that 
-                        involves scientific research or requires a scientific understanding.
-                    </p>
-                </div>
-                
+    <div class="container">
+        <section class="row border-bottom border-primary" >
+            <div class="col-2  border-right border-primary">
+                <h2 class="text-primary">About Me</h2>
             </div>
-        </div>
-        
-    </section>
+            
+            <div class="col-2">
+                <img class="img-thumbnail" src="./assets/images/Photo on 8-9-22 at 5.37 PM.jpg" alt="current photo">
+            </div>
+            <div class="col-8">
+                <p class="text-primary">
+                    My academic background includes an undergraduate degree in physics 
+                    with a minor in mathematics, as well the completion of a post baccalaureate 
+                    program in pre-medicine. After a few years of running our family 
+                    owned restaurant with my father, I am looking to transition into 
+                    a career in software engineering. I feel that my well rounded science 
+                    background has provided me with a problem solving ability that is well 
+                    suited to this new field, and that my time in our restaurant has 
+                    equipped me with leadership skills and the expectation of working long 
+                    hours. I am in the process of completing a bootcamp through Columbia
+                    University on full stack web developement, which combined with my previous
+                    coding experience (research in biochemistry using Python) and my 
+                    relevent mathematical knowledge (I took Numerical Analysis as an undergrad and
+                    applied it practically in my research) makes me a unique candidate within the 
+                    feild. 
+                </p>
+            </div>
+                
+            
+            
+            
+        </section>
 
 
-    <!-- Work -->
-    <section id="work">
-        <div class="work-sect">
-            <h2>Work</h2>
-            <div class="work-content">
-                <div class="work-element2">
-                    <div class="work-img">
-                        <a href="https://cpkopp12.github.io/run-buddy/">
-                            <img src="./assets/images/Screen Shot 2022-08-10 at 11.50.56 AM.png" alt="run buddy">
-                        </a>
-                        <div class="work-img-text">
-                            Run Buddy: <br> HTML/CSS
+        <!-- Work -->
+        <section id="work">
+            <div class="work-sect">
+                <h2>Work</h2>
+                <div class="work-content">
+                    <div class="work-element2">
+                        <div class="work-img">
+                            <a href="https://cpkopp12.github.io/run-buddy/">
+                                <img src="./assets/images/Screen Shot 2022-08-10 at 11.50.56 AM.png" alt="run buddy">
+                            </a>
+                            <div class="work-img-text">
+                                Run Buddy: <br> HTML/CSS
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="work-element2">
-                    <div class="work-img">
-                        <a href="https://github.com/cpkopp12/wham_equations">
-                            <img src="./assets/images/Screen Shot 2022-08-10 at 11.51.59 AM.png" alt="WHAM convergence">
-                        </a>
-                        <div class="work-img-text">
-                         WHAM equations: <br/>PYTHON 
+                    <div class="work-element2">
+                        <div class="work-img">
+                            <a href="https://github.com/cpkopp12/wham_equations">
+                                <img src="./assets/images/Screen Shot 2022-08-10 at 11.51.59 AM.png" alt="WHAM convergence">
+                            </a>
+                            <div class="work-img-text">
+                            WHAM equations: <br/>PYTHON 
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="work-element2">
-                    <div class="work-img">
-                        <a href="https://github.com/cpkopp12/project1-group4">
-                            <img src="./assets/images/Screen Shot 2022-09-15 at 2.53.12 PM.png" alt="Win Streak">
-                        </a>
-                        <div class="work-img-text">
-                         Win Streak: <br/>HTML, JavaScript, CSS 
+                    <div class="work-element2">
+                        <div class="work-img">
+                            <a href="https://github.com/cpkopp12/project1-group4">
+                                <img src="./assets/images/Screen Shot 2022-09-15 at 2.53.12 PM.png" alt="Win Streak">
+                            </a>
+                            <div class="work-img-text">
+                            Win Streak: <br/>HTML, JavaScript, CSS 
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="work-element1">
-                    <div class="work-img">
-                        <a href="https://github.com/kabirfaisal1/shoppers">
-                            <img src="./assets/images/homepage.png" alt="Shoppers">
-                        </a>
-                        <div class="work-img-text">
-                         Shoppers: <br/>HTML, JavaScript, CSS, SQL 
+                    <div class="work-element1">
+                        <div class="work-img">
+                            <a href="https://github.com/kabirfaisal1/shoppers">
+                                <img src="./assets/images/homepage.png" alt="Shoppers">
+                            </a>
+                            <div class="work-img-text">
+                            Shoppers: <br/>HTML, JavaScript, CSS, SQL 
+                            </div>
                         </div>
                     </div>
+
+                
                 </div>
+            </div>
 
             
+
+        </section>
+    
+
+
+        <!-- Contact Information -->
+        <section id="contact-information">
+            <div class="contact-info-sect">
+                <h2>Contact Information</h2>
+                <div class="contact-info-content">
+                    <div class="contact-info-element">
+                        <h4>Telephone:</h4>
+                        <p>(508)-332-9572</p>
+                    </div>
+                    <div class="contact-info-element">
+                        <h4>Email:</h4>
+                        <p>cameronpkopp@gmail.com</p>
+                    </div>
+                    <div class="contact-info-element">
+                        <h4>GitHub:</h4>
+                        <p><a href="https://github.com/cpkopp12">cpkopp12</a></p>
+                    </div>
+
+                </div>
             </div>
-        </div>
+        </section>
 
-        
-
-    </section>
-
-
-    <!-- Contact Information -->
-    <section id="contact-information">
-        <div class="contact-info-sect">
-            <h2>Contact Information</h2>
-            <div class="contact-info-content">
-                <div class="contact-info-element">
-                    <h4>Telephone:</h4>
-                    <p>(508)-332-9572</p>
-                </div>
-                <div class="contact-info-element">
-                    <h4>Email:</h4>
-                    <p>cameronpkopp@gmail.com</p>
-                </div>
-                <div class="contact-info-element">
-                    <h4>GitHub:</h4>
-                    <p><a href="https://github.com/cpkopp12">cpkopp12</a></p>
-                </div>
-
-            </div>
-        </div>
-        
-
-    </section>
-
+    </div>
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 
